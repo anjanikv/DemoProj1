@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SmokeSuite">
+	<test thread-count="5" name="MainTests">
+		<classes>
+			<class name="com.demo.suite1.tests.LoginTest" />
+		</classes>
+	</test> <!-- MainTests -->
+	<listeners>
+		<listener
+			class-name="atu.testng.reports.listeners.ATUReportsListener"></listener>
+		<listener
+			class-name="atu.testng.reports.listeners.ConfigurationListener"></listener>
+		<listener
+			class-name="atu.testng.reports.listeners.MethodListener"></listener>
+	</listeners>
+</suite> <!-- SmokeSuite -->
