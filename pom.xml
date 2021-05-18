@@ -1,0 +1,43 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>DemoProj1</groupId>
+	<artifactId>DemoProj1</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>DemoProj1</name>
+	<description>DemoProj1</description>
+	<dependencies>
+
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>3.141.59</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>6.13</version>
+		</dependency>
+		<dependency>
+			<groupId>com.beust</groupId>
+			<artifactId>jcommander</artifactId>
+			<version>1.27</version>
+		</dependency>
+		<dependency>
+			<groupId>com.aut1</groupId>
+			<artifactId>aut1</artifactId>
+			<version>1.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/Libs/ATUReporter_Selenium_testNG_5.1.1.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>com.aut2</groupId>
+			<artifactId>aut2</artifactId>
+			<version>1.0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/Libs/ATUTestRecorder_2.1.jar</systemPath>
+		</dependency>
+	</dependencies>
+</project>
