@@ -91,7 +91,7 @@ public class BaseTest  {
 			driver.manage().window().maximize();
 			wait = new WebDriverWait(driver, explicitWait);
 		} catch (Exception e1) {
-			System.out.println(e1);
+			System.out.println("Excpetion is : " + e1);
 		}
 		
 
